@@ -4,20 +4,21 @@ export default defineNuxtConfig({
   modules: ["@nuxt/icon", "@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
+      "Bree+Serif": true,
       Roboto: true,
-      'Open+Sans': {
+      "Open+Sans": {
         wght: [300, 400, 600, 700],
-        ital: [300, 400]
+        ital: [300, 400],
       },
       Lobster: true,
-      'Lora': {
+      Lora: {
         wght: [400, 700],
-        ital: [400, 700]
+        ital: [400, 700],
       },
-      'Montserrat': {
-        wght: [400, 700]
-      }
+      Montserrat: {
+        wght: [400, 700],
+      },
     },
-    display: 'swap'
-  }
-})
+    display: "swap",
+  },
+});
